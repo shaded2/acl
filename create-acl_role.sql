@@ -6,12 +6,12 @@ CREATE TABLE `acl_role` (
 ) AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 
 
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (1,'RTPsuperAdmin',0);
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (2,'RTPsupport',0);
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (3,'RTPengineering',0);
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (4,'RTPvendor',0);
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (5,'RTPuser',0);
-insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (6,'RTPauditor',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (1,'superAdmin',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (2,'support',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (3,'engineering',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (4,'vendor',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (5,'user',0);
+insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (6,'auditor',0);
 insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (7,'CustomerAdmin',1);
 insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (8,'CustomerLoadManager',1);
 insert into `acl_role`(`ID`,`Name`,`AccountTypeID`) values (9,'CustomerUser',1);
